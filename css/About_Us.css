@@ -1,0 +1,56 @@
+	body{ 
+		font-family: harrington;
+		background-image: url("../resources/bg_image_cp3.jpg");
+		margin:0
+	} 
+	.container{
+		padding:1vh;
+		border-radius:12px;
+	}
+#pic{
+	height:400px;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 0 4px 8px 0 rgba(10, 10, 8, 10.2), 0 6px 20px 0 rgba(10, 10, 0, 0.19);
+	margin-top:-50px;
+}
+@media screen and (min-width:1207px){
+#card{
+	width:350px;
+	float:right;
+	margin-right:22vw;
+}
+}
+#card2{
+	float:left;
+	margin-top:10px;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px
+
+}
+#name{
+	text-align:center;
+	font-size:40px;
+	margin-top:90px;
+}
+a{
+	text-decoration:none
+}
+#main-content{
+	margin-top:120px
+}
+#nav-bar-list{
+	margin-left:20px
+}
+
+@media screen and (max-width: 1106px){
+	#card{
+		text-align:center;
+	}
+	.cards{
+		background: rgba(255, 230, 204, 0.6);
+	}
+}
+	

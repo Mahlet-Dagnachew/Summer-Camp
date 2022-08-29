@@ -1,0 +1,56 @@
+body{
+	font-family: courier ;
+	background-image: url("../resources/bg_image_cp3.jpg");
+	margin:0
+}
+
+#form{
+	background-color:lightgray;
+	padding:2vw;
+	border:2px solid gray;
+	border-radius:5px;
+	margin:8vw;
+	margin-left:40vw;
+	margin-top: 30px;
+	box-shadow: 0 4px 8px 0 rgba(10, 10, 8, 10.2), 0 6px 20px 0 rgba(10, 10, 10, 0.19);
+}
+input[type = text], select, textarea{
+	width:100%;
+	margin-top:6px;
+	margin-bottom: 16px;
+}
+
+a{
+	text-decoration:none
+}
+#heading{
+	margin-top:120px;
+	margin-bottom:0px;
+	text-align:center;
+	font-size:3vw
+}
+#icon{
+	margin-top:-7.5px
+}
+input [type = submit]: hover{
+	background-color:#45a049;
+}
+@media screen and (max-width: 520px){
+	#form{
+		margin-left:1px;
+		margin-right:1px;
+		padding:15px;
+		background: rgba(207, 204, 201,0.6)
+	}
+	#heading{
+		font-size:25px
+	}
+}
+#mySidenav {
+	font-family:harrington;
+}
+#side{
+	float:left;
+	width:40%;
+
+}

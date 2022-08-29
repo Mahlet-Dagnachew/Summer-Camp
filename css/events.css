@@ -1,0 +1,31 @@
+	body{
+		font-family: harrington;
+		 background-image: url("../resources/bg_image_cp5.jpg");
+		margin:0
+		}
+	#container{
+		background-color: seashell; 
+		padding: 50px; 
+		margin: 90px; 
+		border: 2px solid black
+		}
+
+	a{text-decoration:none}
+
+		#nav-bar{
+			margin-top:0;
+			position:fixed;
+			top:0
+		}
+	a:hover{
+		color:tomato;
+		text-shadow:1px 1px black;
+	}
+	
+	#title{
+		text-align: center; 
+		margin:90px;
+		padding:10px;
+		background-color:white;
+		border: 2px solid black;
+	}

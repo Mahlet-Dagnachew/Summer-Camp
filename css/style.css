@@ -1,0 +1,201 @@
+ #nav-bar{
+	background: linear-gradient(to right, #ffccff 0%, #ffffcc 100%);
+	top:0;
+	position:fixed;
+	width: 100%;
+	height:70px;
+	border-bottom:2px solid black;
+ }
+ .nav-bar-list{
+	 text-decoration:none;
+	 display:inline;
+	 padding:10px;
+	 margin:2px;
+	padding-bottom:5px;
+ }
+ #nav-bar-links{
+	position:fixed;
+	top:0;
+	right:0;
+	font-size:21px;
+	font-family:harrington
+ }
+	#nav-bar-links{padding:20px}
+<!--All different names for the same thing-->
+.title{
+	border-radius:12px
+}
+#title{
+	border-radius:12px;
+}
+#container{
+	border-radius:12px;
+	
+}
+
+#main-content{
+	border-radius:12px;
+}
+#icon{
+	border-radius:50%;
+	width:25px;
+	height:50px;
+	float:left;
+	margin-left: 20px;
+	margin-bottom:30px;
+	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 8.2), 0 6px 20px 0 rgba(7, 7, 7, 0.19);
+}
+#nav-bar-title{
+position:fixed;
+	top:10;
+	left:0;
+	font-size:3.2vh;
+	font-family:harrington;
+}
+#summer-camp{
+	position: fixed;
+	left: 90px;
+	top: 6px;
+	font-size:25px
+}
+#active{
+		color:  #955def;
+		text-shadow:1px 1px black;
+}
+
+@media screen and (max-width: 502px){
+	#container{
+		margin-left:5px;
+		margin-right:5px;
+		background-image: url("../resources/bg_image_cp5.jpg");
+		border:none;
+		padding:5px;
+		background: rgba(255, 230, 204, 0.6);
+	}
+	
+	#main-content{
+		margin-left:5px;
+		margin-right:5px;
+		background-image: url("../resources/bg_image_cp5.jpg");
+		border:none;
+		padding:5px;
+		background: rgba(255, 230, 204, 0.6);
+	}
+	#title{
+		margin-left:5px;
+		margin-right:5px;
+		background-image: url("../resources/bg_image_cp5.jpg");
+		border:none;
+		padding:5px;
+		background: rgba(255, 230, 204, 0.6);
+	}
+	.title{
+		margin-left:5px;
+		margin-right:5px;
+		background-image: url("../resources/bg_image_cp5.jpg");
+		border:none;
+		padding:5px;
+		background: rgba(255, 230, 204, 0.6);
+	}
+}
+
+@media screen and (max-width:1062px){
+	#nav-bar-links{
+		display:none;
+	}
+	#menu{
+		float:right;
+		margin-right:30px;
+		font-weight:200;
+		font-size:15px;
+		line-height:90%;
+		font-family:courier;
+	}
+}
+#menu{
+	margin-top:-6px;
+	font-family:courier;
+}
+
+@media screen and (min-width: 1063px){
+	#menu{
+		display:none;
+	}
+}
+
+@media screen and (max-width:370px){
+	#menu{
+		font-size : 15px;
+		margin-right:15px;
+		font-family:courier;
+		margin-top:10px;
+	}
+	#summer-camp{
+		font-size:35px;
+		margin-left:-85px
+	}
+	#icon{
+		display:none
+	}
+}
+@media screen and (max-width:325px){
+	#summer-camp{
+		display:none
+	}
+	#icon{
+		display:block
+	}
+}
+
+
+.sidenav{
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color:  #ffffb3; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.7s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: violet;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-right .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+
+/* end?*/
