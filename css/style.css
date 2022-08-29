@@ -114,13 +114,15 @@ position:fixed;
 	}
 }
 #menu{
-	margin-top:-6px;
 	font-family:courier;
 }
 
 @media screen and (min-width: 1063px){
 	#menu{
 		display:none;
+	}
+	.nav-bar{
+		height:50px;
 	}
 }
 

@@ -52,5 +52,10 @@ a{
 	.cards{
 		background: rgba(255, 230, 204, 0.6);
 	}
+	{
+
+	}
 }
-	
+#menu{
+	margin-top:10px;
+}

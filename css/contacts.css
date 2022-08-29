@@ -20,14 +20,11 @@ input[type = text], select, textarea{
 	margin-bottom: 16px;
 }
 
-a{
-	text-decoration:none
-}
 #heading{
 	margin-top:120px;
 	margin-bottom:0px;
 	text-align:center;
-	font-size:3vw
+	font-size:3vw;
 }
 #icon{
 	margin-top:-7.5px
@@ -49,8 +46,6 @@ input [type = submit]: hover{
 #mySidenav {
 	font-family:harrington;
 }
-#side{
-	float:left;
-	width:40%;
-
-}
+#menu{
+	margin-top:-12px;
+}		
