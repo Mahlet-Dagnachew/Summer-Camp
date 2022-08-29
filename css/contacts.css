@@ -49,3 +49,6 @@ input [type = submit]: hover{
 #menu{
 	margin-top:-12px;
 }		
+.nav-bar-list{
+	text-decoration:none;
+}
