@@ -7,12 +7,13 @@
 <link rel = "icon" href = "./ArtistMuch/Summer-camp.png"/>
 <meta charset = "utf-8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> 
 </head>
 <body>
 <div id = "nav-bar">
 		<ul>
 		<div id = "nav-bar-title">
-			<li class = "nav-bar-list"><a href = "./About_Us.html"><img id = "icon" src = "./ArtistMuch/bees_copy.jpeg" style = "width:50px"></a></li>
+			<li class = "nav-bar-list"><a href = "./About_Us.html"><img id = "icon" src = "./ArtistMuch/profile.png" style = "width:50px"></a></li>
 			<li  class = "nav-bar-list" id = "summer-camp"> Summer Camp </li>
 		</div>
 		<div id="mySidenav" class="sidenav">
@@ -44,12 +45,13 @@
 <h3 id = "heading"> Contact Form </h3>
 
 <div id = "form">
-<form>
+<form action = "https://formsubmit.co/mahletd25@gmail.com" method = "POST">
 	First name: <br>
 	<input type = "text" name = "fname"><br>
 	Last name: <br>
 	<input type = "text" name = "lname" ><br>
-
+	Email<br>
+	<input type = "email" name = "email" required><br>
 <label for = "country"> Country</label><br>
 <select id = "country" name = "country"><br>
 	<option value = "Ethiopia"> Ethiopia</option>
@@ -66,7 +68,7 @@
 
 <form action="index.php" name="resettest">
 	<input type="reset" value="Reset Form" name="submit">	
-<input type ="submit" value = "Submit">
+<input type ="submit" value = "Send Form">
 </form>
 </div>
 </body>
